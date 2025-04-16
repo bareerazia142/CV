@@ -1,0 +1,18 @@
+h2{
+    color: purple; text-align: center;
+}
+p {
+    text-align: center;
+}
+h4 {
+    text-align: center; color: purple;
+}
+.title::before, .title::after{
+    content: "";
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
